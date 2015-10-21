@@ -3,7 +3,7 @@ Nagios performance data processing command to feed performance data metrics to a
 
 Usage:
   - Update your graphite host, logfile path, and location in the NagiosPerfdata class.
-  - Graphite namespace looks like this: <location>.<host>.<service>.<metric>
+  - Graphite namespace looks like this: $location.$host.$service.$metric
   - Set the following configs in your nagios.cfg file:
 
 ```
